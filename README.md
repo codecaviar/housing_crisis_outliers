@@ -19,18 +19,21 @@ Outliers are extreme data values that are distant from other values in your data
 Outliers are a simple concept - values that are notably different from other data points, and they can cause problems in statistical procedures. A univariate outlier is a data point that consists of an extreme value on one variable, while a multivariate outlier is a combination of unusual scores on at least two variables. Both types of outliers can influence the outcome of statistical analyses and machine learning models. Unfortunately, there are no strict statistical rules for definitively identifying outliers. Finding outliers depends on subject-area knowledge and an understanding of the data collection process. While there is no solid mathematical definition, the guidelines and statistical tests described in this article can be used to successfully find outlier candidates.
 
 Extreme Value Analysis
-    * Visualizing data with scatter plots, histograms, box plots
-    * Use z-scores and interquartile range calculations
+* Visualizing data with scatter plots, histograms, box plots
+* Use z-scores and interquartile range calculations
+
 Proximity Methods
-    * K-means
-    * Density-Based Spatial Clustering of Applications with Noise (DBSCAN)
+* K-means
+* Density-Based Spatial Clustering of Applications with Noise (DBSCAN)
+
 Projection Methods
-    * Principal component analysis (PCA)
+* Principal component analysis (PCA)
+
 Higher Dimensional Automatic Detection
-    * Isolation Forest
-    * Minimum Covariance Determinant
-    * Local Outlier Factor
-    * One-Class Support Vector Machine
+* Isolation Forest
+* Minimum Covariance Determinant
+* Local Outlier Factor
+* One-Class Support Vector Machine
 
 In general, you can follow these simple steps for handling outliers: 1) identify the potential outlier candidates; 2) remove the potential outlier candidates from your training dataset; and 3) evaluate the model performance.
 
