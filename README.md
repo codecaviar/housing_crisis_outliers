@@ -42,7 +42,7 @@ In general, you can follow these simple steps for handling outliers: 1) identify
 Cloning the git repository and installing the provided packages will help you get a copy of the project up and running on your local machine. The analysis for this project was performed using Jupyter Notebook (.ipynb) and the packages were managed using the Anaconda platform.
 
 ```
-git clone https://github.com/codecaviar/housing-crisis-outliers.git
+git clone https://github.com/codecaviar/housing_crisis_outliers.git
 conda env create -f environment.yml
 ```
 
